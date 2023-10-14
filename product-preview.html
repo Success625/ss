@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Preview - S&S Online Store</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="css/product-preview.css">
+        <!-- BoxIcons and Fontawesome links to icons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <script src="js/product-preview.js" type="text/javascript" charset="utf-8" defer=""></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="disp-f hdr">
+                    <div class="disp-f header-title header-left">
+                        <button id="nav-open" class="nav-btn ibtn">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <h1 class="logo">S&S</h1>
+                    </div>
+                    <div class="disp-f header-right icons">
+                        <button class="ibtn searchbar-btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <button class="ibtn">
+                            <i class='bx bx-cart-alt'></i>
+                        </button>
+                        <button class="ibtn">
+                            <i class="fa-regular fa-user"></i>
+                        </button>
+                    </div>
+                </div>
+            </header>
+            <div class="searchbar">
+                <div class="disp-f searchbar-head">
+                    <button class="nav-b ibtn">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <form class="disp-f search">
+                        <div class="disp-f s-input">
+                            <input type="text" name="searchKeyword" id="searchKeyword" placeholder="Search products, brands or categories" required/>
+                            <button type="reset" class="disp-f s-reset"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                        <button type="submit" class="disp-f ibtn submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div class="searchbar-body search-results">
+                    
+                </div>
+            </div>
+            <nav class="sidebar">
+                <div class="sidebar-content">
+                 <div class="disp-f header-title">
+                    <button id="nav-close" class="nav-btn ibtn">
+                        <i class="fa-solid fa-xmark fa-xl"></i>
+                    </button>
+                    <h1 class="logo">S&S</h1>
+                 </div>
+                 
+                 <a class="disp-f sb-nav" href="#">
+                     <span>My S&S Account</span>
+                     <span>see all</span>
+                 </a>
+                 <a class="disp-f sb-link a" href="#">
+                     <div class="ibtn">
+                         <i class='bx bxs-store'></i>
+                     </div>
+                     Orders
+                 </a>
+                 <a class="disp-f sb-link a" href="#">
+                     <i class='bx bx-message-edit' ></i>
+                     Pending Reviews
+                 </a>
+                 <a class="disp-f sb-link a" href="#">
+                     <i class='bx bxs-coupon'></i>
+                     Vouchers
+                 </a>
+                 <a class="disp-f sb-link a" href="#">
+                     <i class='bx bx-heart' ></i>
+                     Saved Items
+                 </a>
+                 <a class="disp-f sb-nav" href="#">
+                     <span>Our Categories</span>
+                     <span>see all</span>
+                 </a>
+                 <a class="disp-f sb-link a" href="#">
+                     <i class='bx bx-male' ></i>
+                     Men's Fashion
+                 </a>
+                 <a class="disp-f sb-link a" href="#">
+                     <i class='bx bx-female' ></i>
+                     Women's Fashion
+                 </a>
+                 <a class="disp-f sb-link a" href="#">
+                     <i class="fa-solid fa-baby"></i>
+                     Baby product
+                 </a>
+                 <a class="disp-f sb-link a" href="#">
+                     <div class="ibtn">
+                        <i class="fa-solid fa-gamepad"></i>
+                     </div>
+                     Gaming
+                 </a>
+                 <a class="disp-f sb-nav" href="#">
+                    <span>Our Services</span>
+                    <span>see all</span>
+                 </a>
+                 <a class="disp-f sb-link a" href="#">
+                     <i class='bx bxs-store'></i>
+                     Orders
+                 </a>
+                 <a class="disp-f sb-link a" href="#">
+                     <i class='bx bx-message-edit' ></i>
+                     Pending Reviews
+                 </a>
+                 <a class="disp-f sb-link a" href="#">
+                     <i class='bx bxs-coupon'></i>
+                     Vouchers
+                 </a>
+                 <a class="disp-f sb-link a" href="#">
+                     <i class='bx bx-heart' ></i>
+                     Saved Items
+                 </a>
+                </div>
+            </nav>
+            <main class="main items-wrapper">
+                <div class="product-preview">
+                    <div class="product-imgs">
+                        <div class="img-wrapper">
+                            <img src="img/1.jpg" alt="" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="img/3.jpg" alt="" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="img/4.jpg" alt="" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="img/5.jpg" alt="" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="img/6.jpg" alt="" />
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="img/7.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="product-info col-8">
+                        <div class="store-name">
+                            <span>Official Store</span>
+                        </div>
+                        <div class="product-name">
+                            Apple Iphone 14 Pro Max 6.7" 6GB 256GB ROM Nano SIM Gold
+                        </div>
+                        <div class="brand">
+                            <span>Brand:</span>
+                            <a href="#">Apple | See other Apple Products</a>
+                        </div>
+                        <div class="price">
+                            <span>₦ 1,125,163 </span>
+                            <div class="dsct">
+                                <del>₦ 2,125,163 </del>
+                                <span>-10%</span>
+                            </div>
+                        </div>
+                        <div class="avbty-info">
+                            <div class="ibtn">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </div>
+                            <span>2 units left</span>
+                        </div>
+                        <div class="shipping-info">
+                            <span>+ shipping </span> to: <a href="#">Ajaokuta</a>
+                            <div>
+                                <a href="#">See Options</a>
+                            </div>
+                        </div>
+                        <div class="ratings">
+                            <form class="rate" method="get" accept-charset="utf-8">
+                                <button class="ibtn">
+                                    <i class="fa-regular fa-star"></i>
+                                </button>
+                                <button class="ibtn">
+                                    <i class="fa-regular fa-star"></i>
+                                </button>
+                                <button class="ibtn">
+                                    <i class="fa-regular fa-star"></i>
+                                </button>
+                                <button class="ibtn">
+                                    <i class="fa-regular fa-star"></i>
+                                </button>
+                                <button class="ibtn">
+                                    <i class="fa-regular fa-star"></i>
+                                </button>
+                            </form>
+                            
+                            <div class="actions">
+                                <button class="ibtn share">
+                                    <i class='bx bx-heart' ></i>
+                                </button>
+                                <button class="ibtn">
+                                    <i class='bx bxs-share-alt'></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="location col-8">
+                    <select name="region" id="region" class="reion" label="region" required>
+                            <option value="1">Abia</option>
+                            <option value="2">Adamawa</option>
+                            <option value="3">Akwa-Ibom</option>
+                            <option value="4">Anambra</option>
+                            <option value="5">Bauchi</option>
+                            <option value="6">Bayelsa</option>
+                            <option value="7">Benue</option>
+                            <option value="8">Borno</option>
+                            <option value="9">Cross-River</option>
+                            <option value="10">Delta</option>
+                            <option value="11">Abia</option>
+                            <option value="12">Abia</option>
+                            <option value="13">Abia</option>
+                            <option value="14">Abia</option>
+                            <option value="15">Abia</option>
+                            <option value="16">Abia</option>
+                            <option value="17">Abia</option>
+                            <option value="18">Abia</option>
+                            <option value="19">Abia</option>
+                            <option value="20">Abia</option>
+                            <option value="21">Abia</option>
+                            <option value="22">Abia</option>
+                            <option value="23">Abia</option>
+                            <option value="24">Abia</option>
+                            <option value="25">Abia</option>
+                            <option value="26">Abia</option>
+                            <option value="27">Abia</option>
+                            <option value="28">Abia</option>
+                            <option value="29">Abia</option>
+                            <option value="30">Abia</option>
+                            <option value="31">Abia</option>
+                            <option value="32">Abia</option>
+                            <option value="33">Abia</option>
+                            <option value="34">Abia</option>
+                            <option value="35">Abia</option>
+                            <option value="36">Abia</option>
+                        </select>
+                    <select name="cityId" id="cityId" class="city" label="CityId" required>
+                            <option value="1">Abia</option>
+                            <option value="2">Adamawa</option>
+                            <option value="3">Akwa-Ibom</option>
+                            <option value="4">Anambra</option>
+                            <option value="5">Bauchi</option>
+                            <option value="6">Bayelsa</option>
+                            <option value="7">Benue</option>
+                            <option value="8">Borno</option>
+                            <option value="9">Cross-River</option>
+                            <option value="10">Delta</option>
+                            <option value="11">Abia</option>
+                            <option value="12">Abia</option>
+                            <option value="13">Abia</option>
+                            <option value="14">Abia</option>
+                            <option value="15">Abia</option>
+                            <option value="16">Abia</option>
+                            <option value="17">Abia</option>
+                            <option value="18">Abia</option>
+                            <option value="19">Abia</option>
+                            <option value="20">Abia</option>
+                            <option value="21">Abia</option>
+                            <option value="22">Abia</option>
+                            <option value="23">Abia</option>
+                            <option value="24">Abia</option>
+                            <option value="25">Abia</option>
+                            <option value="26">Abia</option>
+                            <option value="27">Abia</option>
+                            <option value="28">Abia</option>
+                            <option value="29">Abia</option>
+                            <option value="30">Abia</option>
+                            <option value="31">Abia</option>
+                            <option value="32">Abia</option>
+                            <option value="33">Abia</option>
+                            <option value="34">Abia</option>
+                            <option value="35">Abia</option>
+                            <option value="36">Abia</option>
+                        </select>
+                        
+                    <div class="divider">
+                        <hr />
+                        <span>or</span>
+                    </div>
+                        
+                    <button>Auto Locate Me</button>
+                </div>
+                
+                <section class="section delivery-info">
+                    <div class="section-h">
+                        <span>Delivery</span>
+                    </div>
+                    <div class="section-main">
+                        <div class="delivery-type col-8">
+                            <div class="icon">
+                                <div class="ibtn">
+                                    <i class="fa-solid fa-bicycle"></i>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <b>Bike Delivery</b>
+                                <p>Delivery is going to be made by bike. Estimated time is <em>00:15:23</em></p>
+                                <p>Delivery <span>₦ 100</span></p>
+                            </div>
+                        </div>
+                        <div class="delivery-type col-8">
+                            <div class="icon">
+                                <div class="ibtn">
+                                    <i class="fa-solid fa-car"></i>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <b>Car Delivery</b>
+                                <p>Delivery is going to be made by car. Estimated time is <em>00:10:23</em></p>
+                                <p>Delivery <span>₦ 700</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section reviews">
+                    <div class="section-h">
+                        <span>Reviews</span>
+                    </div>
+                    <div class="section-main">
+                        <div class="noreview">
+                            <span>No Product review from verified users yet</span>
+                        </div>
+                    </div>
+                </section>
+               <div class="add-cart">
+                 <a class="icon" href="tel:+2348072210856">
+                    <button class="btn"><i class='bx bxs-phone'></i></button>
+                 </a>
+                 <button class="atc">Add To Cart <i class='bx bxs-cart-add'></i></button>
+               </div>
+               <div class="section s-flex">
+                    <div class="section-h">
+                        <span>People also see</span>
+                    </div>
+                    <div class="section-main items-cont">
+                        <a class="item a" href="#">
+                            <div class="item-cover-pic">
+                                <img src="img/product-cover-1.jpg" alt="" />
+                            </div>
+                            <div class="item-info">
+                                <p>Oraimo 15W Powerbank</p>
+                                <span class="price">₦ 15,000</span>
+                            </div>
+                        </a>
+                        <a class="item a" href="#">
+                            <div class="item-cover-pic">
+                                <img src="img/product-cover-2.jpg" alt="" />
+                            </div>
+                            <div class="item-info">
+                                <p>Oraimo 15W Powerbank</p>
+                                <span class="price">₦ 15,000</span>
+                            </div>
+                        </a>
+                        <a class="item a" href="#">
+                            <div class="item-cover-pic">
+                                <img src="img/product-cover-3.jpg" alt="" />
+                            </div>
+                            <div class="item-info">
+                                <p>Oraimo 15W Powerbank</p>
+                                <span class="price">₦ 15,000</span>
+                            </div>
+                        </a>
+                        <a class="item a" href="#">
+                            <div class="item-cover-pic">
+                                <img src="img/product-cover-4.jpg" alt="" />
+                            </div>
+                            <div class="item-info">
+                                <p>Oraimo 15W Powerbank</p>
+                                <span class="price">₦ 15,000</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <footer class="footer col-8">
+                    <a href="#">Home</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Create an account</a>
+                    <a href="#">About S&S</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Blogs</a>
+                   
+                </footer>
+            </main>
+            <section class="btm">
+                
+            </section>
+        </div>
+    </body>
+</html>

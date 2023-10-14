@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Signin - S&S Online Store</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="css/signin.css">
+        <!-- BoxIcons and Fontawesome links to icons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <script src="js/signin.js" type="text/javascript" charset="utf-8" defer=""></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="top-bar">
+                <button class="back-btn" id="backBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+                </button>
+            </div>
+            <header class="header">
+                <img src="logo/b.png" alt="" />
+            </header>
+            <div class="header-text">
+                <h4>Create an Account and join millions of S&S users</h4>
+            </div>
+            <main class="main">
+                <div class="info-text">
+                    <p>Enter your email address to proceed to login or signup</p>
+                </div>
+                <form class="signin">
+                    <div class="form-field">
+                        <div class="input">
+                            <input type="text" name="email" id="email" required="" />
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="error-box">
+                            <div class="svgb" style="--clr: red;">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
+                            </div>
+                            <small>There's an error in your input</small>
+                        </div>
+                    </div>
+                    <div class="login-box">
+                        <div class="form-field">
+                            <div class="input">
+                                <input type="password" name="passwordLogin" id="passwordLogin" required="" />
+                                <label for="passwordLogin">Password</label>
+                            </div>
+                            <div class="error-box">
+                                <div class="svgb" style="--clr: red;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
+                                </div>
+                                <small>This is an error message</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="signup-box">
+                        <div class="form-field">
+                            <div class="input">
+                                <input type="password" name="passwordSignup" id="passwordSignup" required="" />
+                                <label for="passwordSignup">Password</label>
+                            </div>
+                            <div class="error-box">
+                                <div class="svgb" style="--clr: red;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
+                                </div>
+                                <small>This is an error message</small>
+                            </div>
+                        </div>
+                        <div class="form-field">
+                            <div class="input">
+                                <input type="password" name="confirmPassword" id="confirmPassword" required="" />
+                                <label for="confirmPassword">Confim password</label>
+                            </div>
+                            <div class="error-box">
+                                <div class="svgb" style="--clr: red;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
+                                </div>
+                                <small>This is an error message</small>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn">Submit</button>
+                </form>
+            </main>
+            <footer class="footer">
+                <a class="link" href="#">Home</a>
+                <a class="link" href="#">Privacy Policy</a>
+                <a class="link" href="#">Terms of Service</a>
+                <a class="link" href="#">Create an account</a>
+                <a class="link" href="#">About S&S</a>
+                <a class="link" href="#">Contact Us</a>
+                <a class="link" href="#">Developers</a>
+                <a class="link" href="#">Blogs</a>
+            </footer>
+        </div>
+</html>
